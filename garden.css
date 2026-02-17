@@ -38,12 +38,14 @@ body::before {
 
 .back-button {
     position: fixed;
-    right: 10px;
-    bottom: 10px;
+    right: 30px;
+    bottom: 30px;
     width: 100px;
-    height: 100px;
-    border: 1px white solid;
-    background-color: rgb(16, 70, 124);
-    font-size: 15px;
-
+    height: 40px;
+    background-color: rgb(74, 71, 104);
+    color: rgb(131, 213, 16);
+    font-size: 25px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 5px;
 }
