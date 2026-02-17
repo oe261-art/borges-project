@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Random Excerpt</title>
+    <link rel="stylesheet" href="garden.css">
+    <link rel="icon" type="svg" href="Favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Almendra+Display&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="excerpt"></div>
+  <a href="/homepage.html">
+  <div class="back-button">Return</div>
+  </a>
+
+  <script>
+    const excerpts = [
+      "Then I reflected that all things happen, happen to one, precisely now.",
+      "Century follows century, and things happen only in the present.",
+      "I thought of a maze of mazes, of a sinuous, ever growing maze which would take in both past and future and would somehow involve the stars.",
+      "An invisible labyrinth of time.",
+      "I leave to various future times, but not to all, my garden of forking paths.",
+      "In all fiction, when a man is faced with alternatives he chooses one at the expense of the others. In the almost unfathomable Ts’ui Pen, he chooses—simultaneously—all of them.",
+      "He believed in an infinite series of times, in a dizzily growing, ever spreading network of diverging, converging and parallel times.",
+      "This web of time… embraces every possibility.",
+      "In some you exist and not I, while in others I do, and you do not…",
+      "In yet another, I say these very same words, but am an error, a phantom.",
+      "In a guessing game to which the answer is chess, which word is the only one prohibited?",
+      "The Garden of Forking Paths is an enormous guessing game… in which the subject is time.",
+      "It seemed to me that the dew-damp garden surrounding the house was infinitely saturated with invisible people.",
+      "Whosoever would undertake some atrocious enterprise should act as if it were already accomplished, should impose upon himself a future as irrevocable as the past.",
+      "He does not know, for no one can, of my infinite penitence and sickness of the heart.",
+    ];
+
+    const randomIndex = Math.floor(Math.random() * excerpts.length);
+    document.getElementById("excerpt").textContent = excerpts[randomIndex];
+  </script>
+
+</body>
+</html>

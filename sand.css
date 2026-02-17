@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    background-color: #13101a;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#excerpt {
+    font-size: 10em;
+    color: rgb(116, 77, 45);
+    padding: 20px;
+    max-width: 10em;
+    position: fixed;
+    top: 5em;
+    left: 20em;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("The Book of Sands Opened.svg");
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}

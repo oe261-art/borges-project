@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Random Excerpt</title>
+    <link rel="stylesheet" href="circular.css">
+    <link rel="icon" type="svg" href="Favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Almendra+Display&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div id="excerpt"></div>
+
+  <script>
+    const excerpts = [
+      "No one saw him disembark in the unanimous night...",
+      "This circle was a temple which had been devoured by ancient fires… whose god no longer received the homage of men.",
+      "He knew that this temple was the place required for his invincible intent; … his immediate obligation was to dream.",
+      "He wanted to dream a man; he wanted to dream him in minute entirety and impose him on reality.",
+      "This magic project had exhausted the entire expanse of his mind.",
+      "He was seeking a soul worthy of participating in the universe.",
+      "At first, his dreams were chaotic; then in a short while they became dialectic in nature.",
+      "He understood that modeling the incoherent and vertiginous matter of which dreams are composed was the most difficult task that a man could undertake.",
+      "Much more difficult than weaving a rope out of sand or coining the faceless wind.",
+      "Night after night, the man dreamt him asleep.",
+      "So that his son should never know that he was a phantom… he destroyed in him all memory of his years of apprenticeship.",
+      "Not to be a man, to be a projection of another man’s dreams—what an incomparable humiliation.",
+      "This multiple god revealed to him that his earthly name was Fire.",
+      "All creatures, except Fire itself and the dreamer, would believe him to be a man of flesh and blood.",
+      "They did not bite his flesh, they caressed him and flooded him without heat or combustion.",
+      "With relief, with humiliation, with terror, he understood that he also was an illusion, that someone else was dreaming him.",    
+    ];
+
+    const randomIndex = Math.floor(Math.random() * excerpts.length);
+    document.getElementById("excerpt").textContent = excerpts[randomIndex];
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Random Excerpt</title>
+    <link rel="stylesheet" href="sand.css">
+    <link rel="icon" type="svg" href="Favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Almendra+Display&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="excerpt"></div>
+  <script>
+    const excerpts = [
+      "The line is made up of an infinite number of points; the plane of an infinite number of lines; the volume of an infinite number of planes…",
+      "No, unquestionably this is not — more geometrico - the best way of beginning my story. To claim that it is true is nowadays the convention of every made-up story. Mine, however, is true.",
+      "‘Look at the illustration closely. You’ll never see it again.’",
+      "The number of pages in this book is exactly infinite. No page is the first; none the last.",
+      "I invited him in, pointing to a chair. He paused awhile before speaking. A kind of gloom emanated from him — as it does now from me.",
+      "It was as though the book were a thing alive.",
+      "I felt that the book was a monstrous thing.",
+      "There was no doubt that it had passed through many hands... 'Nineteenth century, probably,' I remarked. 'I don't know,' he said. 'I've never found out.'",
+      "I opened the book at random. The script was strange to me... In the upper corners of the pages... one left-hand page bore the number 40,514 and the facing right-hand page 999.",
+      "I turned the leaf; it was numbered with eight digits. It also bore a small illustration, like the kind used in dictionaries — an anchor drawn with pen and ink, as if by a schoolboy's clumsy hand.",
+      "If space is infinite, we may be at any point in space. If time is infinite, we may be at any point in time.",
+    ];
+
+    const randomIndex = Math.floor(Math.random() * excerpts.length);
+    document.getElementById("excerpt").textContent = excerpts[randomIndex];
+  </script>
+</body>
+</html>
