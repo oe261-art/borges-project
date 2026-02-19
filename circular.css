@@ -9,13 +9,13 @@ body {
 }
 
 #excerpt {
-    font-size: 10em;
+    font-size: 35px;
     color: rgb(118, 113, 116);
     padding: 20px;
     max-width: 10em;
     position: fixed;
     top: 5em;
-    left: 20em;
+    left: 23em;
 }
 
 body {
