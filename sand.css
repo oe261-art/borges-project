@@ -25,7 +25,7 @@ body {
     flex-direction: column;
 }
 
-body::before {
+body:before {
     content: "";
     position: fixed;
     inset: 0;
